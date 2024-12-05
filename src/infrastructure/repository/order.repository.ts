@@ -1,9 +1,7 @@
-import { Sequelize } from "sequelize-typescript";
 import Order from "../../domain/entity/order";
 import OrderRepositoryInterface from "../../domain/repository/order-repository.interface";
 import OrderItemModel from "../db/sequelize/model/order-item.model";
 import OrderModel from "../db/sequelize/model/order.model";
-import { Op } from "sequelize";
 import OrderItem from "../../domain/entity/order_item";
 
 export default class OrderRepository implements OrderRepositoryInterface {
